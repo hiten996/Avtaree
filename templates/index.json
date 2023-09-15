@@ -51,10 +51,10 @@
         "slide-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": true,
         "image_size": "lg",
-        "controls_type": "numbers",
+        "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
