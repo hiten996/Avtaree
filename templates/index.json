@@ -266,10 +266,22 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "618ff555-0cb6-4363-ab89-1362ff0d3c74": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "sm",
+            "text": "BUY NOW",
+            "url": "shopify:\/\/collections",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
-        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1"
+        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1",
+        "618ff555-0cb6-4363-ab89-1362ff0d3c74"
       ],
       "settings": {
         "full_width": true,
