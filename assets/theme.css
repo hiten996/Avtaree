@@ -9915,7 +9915,11 @@ image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg
 }
 /* end of image with text */
 
-
+/* section wise css */
+#shopify-section-template--21004673679641__scrolling-text .section.section--tight.section-full.bg-custom.text-custom {
+    padding-block: 10px;
+}
+/* end of section wise css */
 
 
 /* end of custom css */
