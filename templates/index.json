@@ -333,6 +333,40 @@
         "product_card_text_color": ""
       }
     },
+    "f45f8134-1b78-4cd6-8f32-66315df53860": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--21004673679641__f45f8134-1b78-4cd6-8f32-66315df53860-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Remini20210702180042893_2.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-end text-end",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pure Silk Material",
+            "content": "<h6>We always Care About Our Family Members. We always use Naturally Build thread For Weaving. We Use Natural Colors.<\/h6>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#3c0008",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21004673679641__f45f8134-1b78-4cd6-8f32-66315df53860-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -427,6 +461,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -636,6 +671,7 @@
     "d5377797-7205-4103-bdd5-5a28a5b35721",
     "image-with-text-overlay",
     "ad550ea7-2604-424d-b46d-c33a21be4a9f",
+    "f45f8134-1b78-4cd6-8f32-66315df53860",
     "media-grid",
     "2635da80-6730-41a6-a19a-6d3151d1d5b0",
     "faq",
