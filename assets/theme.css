@@ -9878,9 +9878,14 @@ split-lines {
 }
 
 /* custom css */
+
+/* cutom font */
 @font-face {
   font-family: "GallientRegular";
   src: url("https://cdn.shopify.com/s/files/1/0821/6487/5545/files/GallientRegular.woff?v=1696504438");
 }
+/* custom font end */
+
+
 
 /* end of custom css */
