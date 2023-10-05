@@ -10,7 +10,7 @@
           "settings": {
             "icon": "picto-box",
             "custom_icon": "shopify:\/\/shop_images\/5_2x_180x_b76e8089-2801-4fac-a22f-4c1c49c67558.png",
-            "mobile_icon_width": 24,
+            "mobile_icon_width": 80,
             "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
@@ -19,51 +19,69 @@
             "content": ""
           }
         },
-        "customer-support": {
+        "bcc101bf-76e2-46de-a026-078ad727a9bf": {
           "type": "item",
           "settings": {
-            "icon": "picto-customer-support",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/4_2x_180x_7fd4fc23-8412-44f2-a83a-c0319a78a708.png",
+            "mobile_icon_width": 80,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.<\/p>"
+            "title": "",
+            "content": ""
           }
         },
-        "discount": {
+        "772295c3-4324-4a06-9ee9-7445c866a345": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/3_2x_180x_3c18172a-9f8d-44ed-9caa-121b262f32f9.png",
+            "mobile_icon_width": 80,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.<\/p>"
+            "title": "",
+            "content": ""
           }
         },
-        "payment": {
+        "b743a579-4f49-427c-be06-470660b3b871": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/2_2x_180x_82f06a71-240d-4753-a144-9f725e42fa75.png",
+            "mobile_icon_width": 80,
+            "icon_width": 120,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.<\/p>"
+            "title": "",
+            "content": ""
+          }
+        },
+        "d51af4b0-3f17-49a7-acb8-ef39dedf9738": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/1_2x_180x_ce8e64b8-0690-4da2-9dfd-8bb3e3e9fc03.png",
+            "mobile_icon_width": 80,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
         "free-shipping",
-        "customer-support",
-        "discount",
-        "payment"
+        "bcc101bf-76e2-46de-a026-078ad727a9bf",
+        "772295c3-4324-4a06-9ee9-7445c866a345",
+        "b743a579-4f49-427c-be06-470660b3b871",
+        "d51af4b0-3f17-49a7-acb8-ef39dedf9738"
       ],
       "settings": {
         "full_width": true,
