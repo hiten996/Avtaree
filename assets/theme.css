@@ -9895,6 +9895,9 @@ h1, h2, h3, h4, h5, h6 {
 .header__wrapper {
     padding-block: 10px;
 }
+.announcement-bar.bg-custom.text-custom {
+    padding-block: 5px;
+}
 
 /* end of header */
 
