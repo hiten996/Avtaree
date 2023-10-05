@@ -661,6 +661,30 @@
         "testimonial_card_background": "",
         "testimonial_card_text_color": ""
       }
+    },
+    "38bf4df0-c70f-4bbf-a9fd-d6db6941fe36": {
+      "type": "video",
+      "blocks": {
+        "template--21004673679641__38bf4df0-c70f-4bbf-a9fd-d6db6941fe36-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--21004673679641__38bf4df0-c70f-4bbf-a9fd-d6db6941fe36-play-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/x2mate.com-Fashion Film _ Ad Shoot _ Kanchipuram Sarees _ Kerala _ India _ Sony a6300-(1080p).mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -676,6 +700,7 @@
     "2635da80-6730-41a6-a19a-6d3151d1d5b0",
     "faq",
     "d392f456-3229-493e-8a99-9e26bbaf4d4d",
-    "959ec3de-0cc0-415d-b54f-2af7c6855288"
+    "959ec3de-0cc0-415d-b54f-2af7c6855288",
+    "38bf4df0-c70f-4bbf-a9fd-d6db6941fe36"
   ]
 }
