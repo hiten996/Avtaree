@@ -28,6 +28,37 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "5a397a65-6fc3-42ac-8d02-9b103e5f34de": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "sale",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/handloom.webp",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/162006-T_1f942764-cddb-49fd-bf6f-98c23f475533.webp",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/handloom.webp",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "5a397a65-6fc3-42ac-8d02-9b103e5f34de"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
