@@ -400,6 +400,57 @@
         "background_gradient": ""
       }
     },
+    "2635da80-6730-41a6-a19a-6d3151d1d5b0": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 18,
+            "vertical_position": 35
+          }
+        },
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 75,
+            "vertical_position": 53
+          }
+        },
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-3": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "horizontal_position": 33,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-1",
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-2",
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": false,
+        "image": "shopify:\/\/shop_images\/bahuji-cagegory-111_copy.jpg",
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
+      }
+    },
     "feature-chart": {
       "type": "feature-chart",
       "blocks": {
@@ -577,6 +628,7 @@
     "image-with-text-overlay",
     "ad550ea7-2604-424d-b46d-c33a21be4a9f",
     "media-grid",
+    "2635da80-6730-41a6-a19a-6d3151d1d5b0",
     "feature-chart",
     "faq"
   ]
