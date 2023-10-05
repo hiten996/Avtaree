@@ -125,7 +125,52 @@
             "overlay_opacity": 0
           }
         },
+        "f02327ca-b630-4e4c-a60e-f74a2404dba3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/162006-T_1f942764-cddb-49fd-bf6f-98c23f475533.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "86e7021e-bacb-41ca-a02f-b6624cdbc05b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/handloom.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "6c7dfdc0-9122-4087-ba1b-8215b0559e10": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/162006-T_1f942764-cddb-49fd-bf6f-98c23f475533.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "691d2321-b71d-4aa7-b448-725babd73bc1": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -146,15 +191,18 @@
         "6279dfed-fc46-4e1c-9c3d-c1182caae92b",
         "36da68fb-6515-472d-a480-765d62ee2483",
         "a93daab9-4bff-4301-9793-e6d5e9501762",
-        "86e7021e-bacb-41ca-a02f-b6624cdbc05b"
+        "f02327ca-b630-4e4c-a60e-f74a2404dba3",
+        "86e7021e-bacb-41ca-a02f-b6624cdbc05b",
+        "6c7dfdc0-9122-4087-ba1b-8215b0559e10",
+        "691d2321-b71d-4aa7-b448-725babd73bc1"
       ],
       "settings": {
         "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 5,
+        "stack_collections": true,
+        "collections_per_row": 4,
         "show_progress_bar": false,
         "subheading": "",
-        "title": "Collection list",
+        "title": "Avtaree Collections",
         "content": "",
         "link_url": "",
         "link_text": "View all",
