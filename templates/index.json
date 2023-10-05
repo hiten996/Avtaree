@@ -406,7 +406,7 @@
         "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "brown-silk-saree-with-weaving-work",
             "horizontal_position": 18,
             "vertical_position": 35
           }
@@ -414,24 +414,33 @@
         "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-2": {
           "type": "product",
           "settings": {
-            "product": "",
-            "horizontal_position": 75,
-            "vertical_position": 53
+            "product": "yellow-banarasi-design-silk-saree-with-weaving-work",
+            "horizontal_position": 65,
+            "vertical_position": 35
           }
         },
         "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-3": {
           "type": "product",
           "settings": {
-            "product": "",
-            "horizontal_position": 33,
-            "vertical_position": 73
+            "product": "pink-pashmina-modal-silk-weaving-saree",
+            "horizontal_position": 43,
+            "vertical_position": 71
+          }
+        },
+        "937e9127-c4ac-441e-b990-0ec0a8fa1dd1": {
+          "type": "product",
+          "settings": {
+            "product": "black-silk-saree-with-weaving-work",
+            "horizontal_position": 40,
+            "vertical_position": 30
           }
         }
       },
       "block_order": [
         "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-1",
         "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-2",
-        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-3"
+        "template--21004673679641__2635da80-6730-41a6-a19a-6d3151d1d5b0-product-3",
+        "937e9127-c4ac-441e-b990-0ec0a8fa1dd1"
       ],
       "settings": {
         "full_width": false,
