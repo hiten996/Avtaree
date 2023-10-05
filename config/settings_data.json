@@ -32,6 +32,7 @@
     "product_color_display": "variant",
     "product_info_alignment": "start",
     "cart_type": "popover",
+    "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 45,
     "favicon": "shopify:\/\/shop_images\/favicon.webp",
