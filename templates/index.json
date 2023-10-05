@@ -258,20 +258,14 @@
     "d5377797-7205-4103-bdd5-5a28a5b35721": {
       "type": "rich-text",
       "blocks": {
-        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
+        "22f1579e-fff8-4671-b0f9-80aa4fc0511c": {
+          "type": "icon",
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "c5cb0568-a29c-416a-a886-7636bb6134d2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1_75ba6a38-861d-4f7e-ad58-7f2fdadb27e8.png",
-            "width_mode": "custom",
-            "max_width": 100,
-            "mobile_max_width": 100
+            "icon": "picto-gift",
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": ""
           }
         },
         "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1": {
@@ -282,19 +276,11 @@
             "text_color": "",
             "gradient": ""
           }
-        },
-        "bb0d562b-cd46-432e-a0f3-2bf2f0350b85": {
-          "type": "page",
-          "settings": {
-            "page": "contact"
-          }
         }
       },
       "block_order": [
-        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-subheading-1",
-        "c5cb0568-a29c-416a-a886-7636bb6134d2",
-        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1",
-        "bb0d562b-cd46-432e-a0f3-2bf2f0350b85"
+        "22f1579e-fff8-4671-b0f9-80aa4fc0511c",
+        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1"
       ],
       "settings": {
         "full_width": true,
