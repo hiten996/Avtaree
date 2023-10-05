@@ -255,6 +255,56 @@
         "product_card_text_color": ""
       }
     },
+    "d5377797-7205-4103-bdd5-5a28a5b35721": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "c5cb0568-a29c-416a-a886-7636bb6134d2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1_75ba6a38-861d-4f7e-ad58-7f2fdadb27e8.png",
+            "width_mode": "custom",
+            "max_width": 100,
+            "mobile_max_width": 100
+          }
+        },
+        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "The One-Stop Shop For Ethnic Wear For Women Online",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "bb0d562b-cd46-432e-a0f3-2bf2f0350b85": {
+          "type": "page",
+          "settings": {
+            "page": "contact"
+          }
+        }
+      },
+      "block_order": [
+        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-subheading-1",
+        "c5cb0568-a29c-416a-a886-7636bb6134d2",
+        "template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721-heading-1",
+        "bb0d562b-cd46-432e-a0f3-2bf2f0350b85"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -518,6 +568,7 @@
     "collection-list",
     "scrolling-text",
     "featured-collection",
+    "d5377797-7205-4103-bdd5-5a28a5b35721",
     "image-with-text-overlay",
     "ad550ea7-2604-424d-b46d-c33a21be4a9f",
     "media-grid",
