@@ -9901,7 +9901,11 @@ h1, h2, h3, h4, h5, h6,p {
 
 /* end of header */
 
-
+/* product card */
+product-card.product-card.product-card--show-secondary-media.bg-custom.text-custom {
+    border: 1px solid #24325c;
+}
+/* end of product card */
 
 
 
