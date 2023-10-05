@@ -101,8 +101,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image": "{{shop.brand.logo}}",
-            "image_width": 150,
+            "image": "shopify:\/\/shop_images\/Artboard_1_2_fb0c66e6-4d24-4809-a22e-c3252d8d3bb4.png",
+            "image_width": 170,
             "heading_size": "h3",
             "title": "Sign up for new stories and personal offers",
             "content": ""
