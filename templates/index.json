@@ -80,10 +80,11 @@
             "overlay_opacity": 0
           }
         },
-        "collection-2": {
+        "6279dfed-fc46-4e1c-9c3d-c1182caae92b": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/162006-T.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -91,13 +92,14 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
-        "collection-3": {
+        "36da68fb-6515-472d-a480-765d62ee2483": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/handloom.webp",
             "subheading": "",
             "title": "",
             "url": "",
@@ -105,19 +107,51 @@
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "a93daab9-4bff-4301-9793-e6d5e9501762": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/162006-T_1f942764-cddb-49fd-bf6f-98c23f475533.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "86e7021e-bacb-41ca-a02f-b6624cdbc05b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/handloom.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
         "collection-1",
-        "collection-2",
-        "collection-3"
+        "6279dfed-fc46-4e1c-9c3d-c1182caae92b",
+        "36da68fb-6515-472d-a480-765d62ee2483",
+        "a93daab9-4bff-4301-9793-e6d5e9501762",
+        "86e7021e-bacb-41ca-a02f-b6624cdbc05b"
       ],
       "settings": {
         "full_width": true,
         "stack_collections": false,
-        "collections_per_row": 3,
+        "collections_per_row": 5,
         "show_progress_bar": false,
         "subheading": "",
         "title": "Collection list",
