@@ -547,6 +547,23 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "d392f456-3229-493e-8a99-9e26bbaf4d4d": {
+      "type": "newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/V020392.webp",
+        "show_icon": false,
+        "title": "Newsletter",
+        "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -559,6 +576,7 @@
     "ad550ea7-2604-424d-b46d-c33a21be4a9f",
     "media-grid",
     "2635da80-6730-41a6-a19a-6d3151d1d5b0",
-    "faq"
+    "faq",
+    "d392f456-3229-493e-8a99-9e26bbaf4d4d"
   ]
 }
