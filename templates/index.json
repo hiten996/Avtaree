@@ -6,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-web1_1950x_74c1b42f-a837-4061-9128-a31b14fdbd2c.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -27,7 +27,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minimalist-retail-clothing-display.jpg",
+            "image": "shopify:\/\/shop_images\/lh-Untitled-1.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -51,8 +51,8 @@
         "slide-2"
       ],
       "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
+        "full_width": true,
+        "allow_transparent_header": false,
         "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
