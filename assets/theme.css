@@ -9890,4 +9890,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family:"GallientRegular" !important;
 }
 
+/* header */
+
+.header__wrapper {
+    padding-block: 10px;
+}
+
+/* end of header */
+
+
+
+
+
+
+
 /* end of custom css */
