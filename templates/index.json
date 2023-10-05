@@ -174,7 +174,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
-        "background": "rgba(0,0,0,0)",
+        "background": "#fff",
         "background_gradient": "",
         "text_color": "#bf993f",
         "text_gradient": ""
