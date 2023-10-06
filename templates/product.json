@@ -99,9 +99,31 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "48627a91-e0c3-4754-af23-178340e169a3": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "full_width": true,
+        "products_count": 5,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "48627a91-e0c3-4754-af23-178340e169a3"
   ]
 }
