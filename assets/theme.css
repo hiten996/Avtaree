@@ -9892,6 +9892,10 @@ h1, h2, h3, h4, h5, h6,p {
 
 /* header */
 
+nav.header__link-list.wrap {
+    justify-content: center;
+}
+
 .header__wrapper {
     padding-block: 10px;
 }
