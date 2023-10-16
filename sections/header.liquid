@@ -84,95 +84,7 @@ the underlying logic of the menu.
       --------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
-     
-
-      {%- comment -%}
-      --------------------------------------------------------------------------------------------------------------------
-      LOGO AREA
-      --------------------------------------------------------------------------------------------------------------------
-      {%- endcomment -%}
-
-      {%- capture logo_content -%}
-        {%- if section.settings.logo -%}
-          {%- capture sizes -%}{{ section.settings.logo_max_width }}px{%- endcapture -%}
-          {%- capture widths -%}{{ section.settings.logo_max_width | times: 2 | at_most: section.settings.logo.width }}, {{ section.settings.logo_max_width | times: 3 | at_most: section.settings.logo.width }}{%- endcapture -%}
-          <span class="sr-only">{{ shop.name }}</span>
-          {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image' -}}
-
-          {%- if section.settings.transparent_logo -%}
-            {{- section.settings.transparent_logo | image_url: width: section.settings.transparent_logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image header__logo-image--transparent' -}}
-          {%- endif -%}
-        {%- else -%}
-          <span class="header__logo-text h4">{{ shop.name }}</span>
-        {%- endif -%}
-      {%- endcapture -%}
-
-      {%- if request.page_type == 'index' -%}
-        <h1 class="header__logo">
-          <a href="{{ routes.root_url }}">{{ logo_content }}</a>
-        </h1>
-      {% else %}
-        <a href="{{ routes.root_url }}" class="header__logo">{{ logo_content }}</a>
-      {% endif %}
-
-      {%- comment -%}
-      --------------------------------------------------------------------------------------------------------------------
-      SECONDARY NAV AREA
-      --------------------------------------------------------------------------------------------------------------------
-      {%- endcomment -%}
-
-      <div class="header__secondary-nav">
-        {%- if section.settings.header != 'drawer' and section.settings.secondary_menu.links.size > 0 -%}
-          <nav class="header__link-list" role="navigation">
-            <ul class="contents">
-              {%- for link in section.settings.secondary_menu.links -%}
-                <li>
-                  <a href="{{ link.url }}" class="bold link-faded-reverse">{{ link.title }}</a>
-                </li>
-              {%- endfor -%}
-            </ul>
-          </nav>
-        {%- endif -%}
-
-        <div class="header__icon-list">
-          {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
-            <div class="hidden md:block shrink-0">
-              {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_vertical_position: 'end' -%}
-            </div>
-          {%- endif -%}
-
-          {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
-            <div class="hidden md:block shrink-0">
-              {%- render 'localization-selector', type: 'locale', popover_vertical_position: 'end' -%}
-            </div>
-          {%- endif -%}
-
-          <a href="{{ routes.search_url }}" class="hidden tap-area sm:block" aria-controls="search-drawer">
-            <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
-            {%- render 'icon' with 'search' -%}
-          </a>
-          
-          {%- if shop.customer_accounts_enabled -%}
-            <a href="{{ routes.account_url }}" class="hidden tap-area sm:block">
-              <span class="sr-only">{{ 'header.general.open_account' | t }}</span>
-              {%- render 'icon' with 'account' -%}
-            </a>
-          {%- endif -%}
-
-          <a href="{{ routes.cart_url }}" data-no-instant class="relative tap-area" {% if settings.cart_type != 'page' and request.page_type != 'cart' %}aria-controls="cart-drawer"{% endif %}>
-            <span class="sr-only">{{ 'header.general.open_cart' | t }}</span>
-            {%- render 'icon' with 'cart' -%}
-
-            <div class="header__cart-count">
-              <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true">
-                {{- cart.item_count -}}
-              </cart-count>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-     <div class="header__main-nav">
+      <div class="header__main-nav">
         <div class="header__icon-list">
           <button type="button" class="tap-area {% if section.settings.layout != 'drawer' %}lg:hidden{% endif %}" aria-controls="header-sidebar-menu">
             <span class="sr-only">{{ 'header.general.open_menu' | t }}</span>
@@ -279,6 +191,93 @@ the underlying logic of the menu.
           {%- endif -%}
         </div>
       </div>
+
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      LOGO AREA
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- capture logo_content -%}
+        {%- if section.settings.logo -%}
+          {%- capture sizes -%}{{ section.settings.logo_max_width }}px{%- endcapture -%}
+          {%- capture widths -%}{{ section.settings.logo_max_width | times: 2 | at_most: section.settings.logo.width }}, {{ section.settings.logo_max_width | times: 3 | at_most: section.settings.logo.width }}{%- endcapture -%}
+          <span class="sr-only">{{ shop.name }}</span>
+          {{- section.settings.logo | image_url: width: section.settings.logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image' -}}
+
+          {%- if section.settings.transparent_logo -%}
+            {{- section.settings.transparent_logo | image_url: width: section.settings.transparent_logo.width | image_tag: sizes: sizes, widths: widths, class: 'header__logo-image header__logo-image--transparent' -}}
+          {%- endif -%}
+        {%- else -%}
+          <span class="header__logo-text h4">{{ shop.name }}</span>
+        {%- endif -%}
+      {%- endcapture -%}
+
+      {%- if request.page_type == 'index' -%}
+        <h1 class="header__logo">
+          <a href="{{ routes.root_url }}">{{ logo_content }}</a>
+        </h1>
+      {% else %}
+        <a href="{{ routes.root_url }}" class="header__logo">{{ logo_content }}</a>
+      {% endif %}
+
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      SECONDARY NAV AREA
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      <div class="header__secondary-nav">
+        {%- if section.settings.header != 'drawer' and section.settings.secondary_menu.links.size > 0 -%}
+          <nav class="header__link-list" role="navigation">
+            <ul class="contents">
+              {%- for link in section.settings.secondary_menu.links -%}
+                <li>
+                  <a href="{{ link.url }}" class="bold link-faded-reverse">{{ link.title }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </nav>
+        {%- endif -%}
+
+        <div class="header__icon-list">
+          {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+            <div class="hidden md:block shrink-0">
+              {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_vertical_position: 'end' -%}
+            </div>
+          {%- endif -%}
+
+          {%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+            <div class="hidden md:block shrink-0">
+              {%- render 'localization-selector', type: 'locale', popover_vertical_position: 'end' -%}
+            </div>
+          {%- endif -%}
+
+          <a href="{{ routes.search_url }}" class="hidden tap-area sm:block" aria-controls="search-drawer">
+            <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
+            {%- render 'icon' with 'search' -%}
+          </a>
+          
+          {%- if shop.customer_accounts_enabled -%}
+            <a href="{{ routes.account_url }}" class="hidden tap-area sm:block">
+              <span class="sr-only">{{ 'header.general.open_account' | t }}</span>
+              {%- render 'icon' with 'account' -%}
+            </a>
+          {%- endif -%}
+
+          <a href="{{ routes.cart_url }}" data-no-instant class="relative tap-area" {% if settings.cart_type != 'page' and request.page_type != 'cart' %}aria-controls="cart-drawer"{% endif %}>
+            <span class="sr-only">{{ 'header.general.open_cart' | t }}</span>
+            {%- render 'icon' with 'cart' -%}
+
+            <div class="header__cart-count">
+              <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true">
+                {{- cart.item_count -}}
+              </cart-count>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </store-header>
 </height-observer>
 
