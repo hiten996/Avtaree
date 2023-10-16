@@ -9914,6 +9914,10 @@ product-card.product-card.product-card--show-secondary-media.bg-custom.text-cust
     justify-content: space-between;
 }
 
+.product-info__buy-buttons.cardadtc.addtocartbutn {
+    margin-inline: auto;
+}
+
 /* end of product card */
 /* image with text */
 image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg.text-custom {
