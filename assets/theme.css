@@ -9908,6 +9908,12 @@ product-card.product-card.product-card--show-secondary-media.bg-custom.text-cust
 .product-card__quick-buy button.button {
     border: 1px solid #fff8e4;
 }
+
+.customatcbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* end of product card */
 /* image with text */
 image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg.text-custom {
