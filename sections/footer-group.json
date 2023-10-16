@@ -111,6 +111,13 @@
         "links": {
           "type": "links",
           "settings": {
+            "menu": "main-menu",
+            "show_menu_title": true
+          }
+        },
+        "f17c8a38-27ac-4bdd-9b12-3dea627b513d": {
+          "type": "links",
+          "settings": {
             "menu": "footer",
             "show_menu_title": true
           }
@@ -127,6 +134,7 @@
       "block_order": [
         "newsletter",
         "links",
+        "f17c8a38-27ac-4bdd-9b12-3dea627b513d",
         "text"
       ],
       "settings": {
