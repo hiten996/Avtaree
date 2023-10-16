@@ -103,9 +103,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Artboard_1_2_fb0c66e6-4d24-4809-a22e-c3252d8d3bb4.png",
             "image_width": 170,
-            "heading_size": "h3",
+            "heading_size": "h5",
             "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "content": "<p>Embrace your Style with our Exquisite Collection of Sarees.<\/p>"
           }
         },
         "links": {
@@ -119,7 +119,7 @@
           "type": "text",
           "settings": {
             "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "content": "<p>Step into the world of timeless elegance with our exquisite collection of sarees. Inspired by the rich heritage of Surat, our brand brings you the finest craftsmanship and unparalleled quality. Every thread, every pattern, and every detail is carefully curated to offer a truly mesmerizing experience.<\/p>",
             "enable_follow_on_shop": true
           }
         }
