@@ -9917,7 +9917,11 @@ product-card.product-card.product-card--show-secondary-media.bg-custom.text-cust
 .product-info__buy-buttons.cardadtc.addtocartbutn {
     margin-inline: auto;
 }
-
+.cardbtn {
+    padding-inline: 30px;
+    padding-block: 10px;
+    margin-top: 10px;
+}
 /* end of product card */
 /* image with text */
 image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg.text-custom {
