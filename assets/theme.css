@@ -9907,6 +9907,13 @@ nav.header__link-list.wrap {
 
 /* end of header */
 
+/* product page */
+.product-gallery__ar-wrapper {
+    box-shadow: 0px 0px 15px 0px rgba(201,201,201,1) !important;
+    border-radius: 12px;
+}
+/* end of product page */
+
 /* product card */
 product-card.product-card.product-card--show-secondary-media.bg-custom.text-custom {
     border: 1px solid #24325c;
