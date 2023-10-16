@@ -216,6 +216,40 @@ Supported variables
                 </fieldset>
               {%- endcase -%}
           </div>
+<!-- add to cart button -->
+        <div class="product-info__buy-buttons cardadtc {% if template == "index" %} addtocartbutn {% endif %}" {{ block.shopify_attributes }}>
+      {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+      {%- assign variant_picker_block = section.blocks | where: 'type', 'variant_picker' | first -%}
+
+      {%- form 'product', product, is: 'product-form', id: form_id -%}
+        <input
+          type="hidden"
+          {% if variant_picker_block != blank %}disabled{% endif %}
+          name="id"
+          value="{{ product.selected_or_first_available_variant.id }}">
+        <buy-buttons
+          class="buy-buttons "
+          template=""
+          form="">
+          <button
+            type="submit"
+            class="button button--xl"
+            is="custom-button">
+            <div class="customatcbtn">
+              <div class="button-title" style="transform: translateY(0px); opacity: 1;">Add to cart
+              </div>
+              <div class="card-price">{{ product.price | money }}</div>
+            </div>
+            <span class="button__loader" style="transform: translateY(-10px); opacity: 0;">
+              <span style="opacity: 1;"></span>
+              <span style="opacity: 1;"></span>
+              <span style="opacity: 1;"></span>
+            </span>
+          </button>
+        </buy-buttons>
+      {%- endform -%}
+    </div>
+<!-- end of add to cart button -->
 
           {%- break -%}
         {%- endif -%}
