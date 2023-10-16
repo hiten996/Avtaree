@@ -30,6 +30,7 @@
     "show_page_transition": true,
     "zoom_image_on_hover": false,
     "heading_apparition": "split_fade",
+    "show_quick_buy": false,
     "show_product_rating": true,
     "product_color_display": "variant",
     "product_info_alignment": "start",
