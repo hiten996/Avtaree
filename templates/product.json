@@ -59,6 +59,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": true
           }
@@ -67,6 +68,40 @@
           "type": "share_buttons",
           "settings": {
             "alignment": "start"
+          }
+        },
+        "bc668d54-d210-4eec-80b9-7d7194f1f3f2": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "FREE CASH ON DELIVERY",
+            "content": "<p>Share some content to your customers about your products.<\/p>"
+          }
+        },
+        "7fbd9134-e837-4c7b-835b-4aaf22e717ba": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "AUTHENTIC PRODUCT",
+            "content": "<p>Share some content to your customers about your products.<\/p>"
+          }
+        },
+        "51a3fa0b-fe2d-4c47-a2b2-ee095690249e": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "WHY LOW PRICE?",
+            "content": "<p>Share some content to your customers about your products.<\/p>"
+          }
+        },
+        "0fb5535a-ca3c-458d-9125-dfb2a3de8509": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Shipping",
+            "content": "<p>Short content about your shipping rates or discounts.<\/p>",
+            "background": "#dcbf91",
+            "text_color": "#24325c"
           }
         }
       },
@@ -80,7 +115,11 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "bc5e46b3-41e5-4798-8ad3-aaf2227aa22f"
+        "bc5e46b3-41e5-4798-8ad3-aaf2227aa22f",
+        "bc668d54-d210-4eec-80b9-7d7194f1f3f2",
+        "7fbd9134-e837-4c7b-835b-4aaf22e717ba",
+        "51a3fa0b-fe2d-4c47-a2b2-ee095690249e",
+        "0fb5535a-ca3c-458d-9125-dfb2a3de8509"
       ],
       "settings": {
         "full_width": true,
