@@ -5901,6 +5901,7 @@ split-lines {
   align-items: center;
   gap: var(--header-icon-list-spacing);
   display: flex;
+  justify-content: center;
 }
 
 .header__cart-count {
