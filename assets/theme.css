@@ -9922,6 +9922,9 @@ product-card.product-card.product-card--show-secondary-media.bg-custom.text-cust
     padding-block: 10px;
     margin-top: 10px;
 }
+.product-info__buy-buttons.cardadtc {
+    margin-inline: auto;
+}
 /* end of product card */
 /* image with text */
 image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg.text-custom {
