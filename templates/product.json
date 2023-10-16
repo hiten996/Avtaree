@@ -160,6 +160,138 @@
         "text_gradient": ""
       }
     },
+    "d243d83e-34ca-4d12-8b4c-a91e414fb891": {
+      "type": "media-grid",
+      "blocks": {
+        "template--21004674466073__d243d83e-34ca-4d12-8b4c-a91e414fb891-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NOOR-TEAL-4.jpg",
+            "title": "Go Green",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21004674466073__d243d83e-34ca-4d12-8b4c-a91e414fb891-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vihana1001-1.jpg",
+            "title": "Color Red",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--21004674466073__d243d83e-34ca-4d12-8b4c-a91e414fb891-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KANI-BLACK-4.jpg",
+            "title": "Dark Tradition",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "eb4ae5ef-8360-42f4-8ab4-ef49bb34d01d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NAVYA-CHIKU-BLACK-4.jpg",
+            "title": "Black Beauty",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "d2accc65-5673-4ea2-a376-c4e5c4ac6bad": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/x2mate.com-Fashion Film _ Ad Shoot _ Kanchipuram Sarees _ Kerala _ India _ Sony a6300-(1080p).mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify:\/\/products\/cream-black-silk-saree-with-weaving-work",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21004674466073__d243d83e-34ca-4d12-8b4c-a91e414fb891-image-1",
+        "template--21004674466073__d243d83e-34ca-4d12-8b4c-a91e414fb891-image-2",
+        "template--21004674466073__d243d83e-34ca-4d12-8b4c-a91e414fb891-image-3",
+        "eb4ae5ef-8360-42f4-8ab4-ef49bb34d01d",
+        "d2accc65-5673-4ea2-a376-c4e5c4ac6bad"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
     "48627a91-e0c3-4754-af23-178340e169a3": {
       "type": "recently-viewed-products",
       "settings": {
@@ -185,6 +317,7 @@
   "order": [
     "main",
     "d86b372d-c0d0-4a00-9469-96ca3b423542",
+    "d243d83e-34ca-4d12-8b4c-a91e414fb891",
     "48627a91-e0c3-4754-af23-178340e169a3"
   ]
 }
