@@ -9894,6 +9894,7 @@ h1, h2, h3, h4, h5, h6,p {
 
 nav.header__link-list.wrap {
     justify-content: center;
+  background: rgb(var(--background) / var(--header-background-opacity));
 }
 
 .header__wrapper {
