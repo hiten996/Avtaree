@@ -334,6 +334,33 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "2f11db32-0eec-4035-9428-2fd46669315e": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 5,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Trending Now",
+        "content": "<p>Elevate your style with our exquisite collection of sarees.<\/p>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -341,6 +368,7 @@
     "d86b372d-c0d0-4a00-9469-96ca3b423542",
     "d243d83e-34ca-4d12-8b4c-a91e414fb891",
     "457ed17e-dae4-4024-a4f2-8525ff647ea6",
-    "48627a91-e0c3-4754-af23-178340e169a3"
+    "48627a91-e0c3-4754-af23-178340e169a3",
+    "2f11db32-0eec-4035-9428-2fd46669315e"
   ]
 }
