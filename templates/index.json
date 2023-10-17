@@ -205,7 +205,7 @@
         "title": "Avtaree Collections",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -222,7 +222,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#bf993f",
         "text_gradient": ""
@@ -287,7 +287,7 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "center",
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -351,7 +351,7 @@
             "content": "<h6>We always Care About Our Family Members. We always use Naturally Build thread For Weaving. We Use Natural Colors.<\/h6>",
             "link_text": "",
             "link_url": "",
-            "background": "#fff",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#3c0008",
             "text_gradient": "",
@@ -529,7 +529,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#ffffff"
       }
     },
     "38bf4df0-c70f-4bbf-a9fd-d6db6941fe36": {
@@ -618,7 +618,7 @@
         "content": "<p>Write something about what your customers will receive by subscribing to your newsletter.<\/p>",
         "button_text": "Subscribe",
         "subtext": "",
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "button_background": "",
