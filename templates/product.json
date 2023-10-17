@@ -31,10 +31,20 @@
           "settings": {
           }
         },
+        "f4e44757-69e1-411a-97a9-b89c725d8c98": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "9063e412-8fd0-4c07-9327-d412cd5eb09b": {
           "type": "text",
           "settings": {
             "text": "<h5>Product Details<\/h5><p><strong>- Baby Pink Saree in Georgette fabric<br\/>- The Saree is elevated with Sequins embroidery<br\/>- It comes with an Unstitched blouse<br\/>- Comes with the Koskii promise of premium quality<\/strong><\/p>"
+          }
+        },
+        "6c060b84-a14a-415c-98c2-1fb37168eae3": {
+          "type": "separator",
+          "settings": {
           }
         },
         "variant_picker": {
@@ -116,7 +126,9 @@
         "price",
         "rating",
         "payment_terms",
+        "f4e44757-69e1-411a-97a9-b89c725d8c98",
         "9063e412-8fd0-4c07-9327-d412cd5eb09b",
+        "6c060b84-a14a-415c-98c2-1fb37168eae3",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
