@@ -10170,6 +10170,10 @@ image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg
   .prose.break-all.place-self-center-end.text-end {
     text-align: center;
   }
+
+  .media-with-text__content.bg-custom.text-custom {
+    padding-block: 20px;
+  }
 }
 
 /* end of section wise css */
