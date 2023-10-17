@@ -10161,6 +10161,14 @@ image-banner.content-over-media.content-over-media--auto.shadow-block.rounded-lg
   padding-block: 10px;
 }
 
+@media only screen and (max-width:679px) {
+
+  #shopify-section-template--21004673679641__d5377797-7205-4103-bdd5-5a28a5b35721 .section.section-full.bg-custom {
+    padding-block: 20px;
+  }
+
+}
+
 /* end of section wise css */
 
 
