@@ -10139,6 +10139,11 @@ product-card.product-card.product-card--show-secondary-media.bg-custom.text-cust
 .product-info__buy-buttons.cardadtc {
   margin-inline: auto;
 }
+img.elementimg {
+    margin-inline: auto;
+    margin-top: 10px;
+    width: 35%;
+}
 
 /* end of product card */
 /* image with text */
