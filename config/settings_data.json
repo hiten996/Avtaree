@@ -32,7 +32,7 @@
     "heading_apparition": "split_fade",
     "show_quick_buy": false,
     "show_product_rating": true,
-    "product_color_display": "variant",
+    "product_color_display": "hide",
     "product_info_alignment": "start",
     "cart_type": "popover",
     "cart_icon": "shopping_cart",
