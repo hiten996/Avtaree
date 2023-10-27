@@ -20,8 +20,14 @@
             "show_taxes_notice": false
           }
         },
+        "6d6aca1c-e8f7-4968-81f4-3163f72a91ce": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true
           }
@@ -118,12 +124,18 @@
             "background": "#dcbf91",
             "text_color": "#24325c"
           }
+        },
+        "7e845c27-c2fe-4493-a88f-c597f2277542": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "title",
         "badges",
         "price",
+        "6d6aca1c-e8f7-4968-81f4-3163f72a91ce",
         "rating",
         "payment_terms",
         "f4e44757-69e1-411a-97a9-b89c725d8c98",
@@ -137,7 +149,8 @@
         "bc668d54-d210-4eec-80b9-7d7194f1f3f2",
         "7fbd9134-e837-4c7b-835b-4aaf22e717ba",
         "51a3fa0b-fe2d-4c47-a2b2-ee095690249e",
-        "0fb5535a-ca3c-458d-9125-dfb2a3de8509"
+        "0fb5535a-ca3c-458d-9125-dfb2a3de8509",
+        "7e845c27-c2fe-4493-a88f-c597f2277542"
       ],
       "settings": {
         "full_width": true,
